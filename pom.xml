@@ -9,11 +9,12 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>log-service</module>
-        <module>pk-hbase</module>
-        <module>pk-redis</module>
-        <module>pk-ss</module>
-        <module>pk-sss</module>
+        <module>pb-ss</module>
+        <module>pb-hbase</module>
+        <module>pb-redis</module>
+        <module>pb-sss</module>
+        <module>pb-logservice</module>
+        <module>pb-log-web</module>
     </modules>
 
     <properties>
@@ -63,7 +64,6 @@
                 <artifactId>spark-streaming_2.12</artifactId>
                 <version>${spark.version}</version>
             </dependency>
-
 
             <dependency>
                 <groupId>junit</groupId>

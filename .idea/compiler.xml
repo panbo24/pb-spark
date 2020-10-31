@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pk-redis" />
-        <module name="pk-hbase" />
-        <module name="log-service" />
-        <module name="pk-sss" />
+        <module name="pb-logservice" />
+        <module name="pb-sss" />
+        <module name="pb-hbase" />
+        <module name="pb-ss" />
         <module name="pk-log-web" />
-        <module name="pk-ss" />
+        <module name="pb-redis" />
       </profile>
     </annotationProcessing>
   </component>
